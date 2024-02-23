@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    }
+    body{
+        background-color:#eebea3;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    .center{
+       position: relative;
+       top: 200px;
+       left: 400px;
+       background-color: wheat;
+       width: 500px;
+       height: 300px;
+    }
+    .center button{
+        margin-top: 70px;
+        padding: 7px 60px;
+        border: none;
+        background-color: rgb(212, 97, 30);
+        color: white;
+    }
+    .center button:hover{
+        background-color: #ff5e00;
+    }
+    .center p {
+        margin-top: 30px;
+    }
+    @media (max-width: 1024px){
+        .center{
+            left: 300px;
+            top: 500px;
+            transform: scale(1.6);
+        }
+    }
+    @media (max-width: 985px){
+        .center{
+            left: 200px;
+        }
+    }
+    @media (max-width: 880px){
+        .center{
+            transform: scale(1.4);
+            left:150px ;
+        }
+    }
+    @media (max-width: 774px){
+        .center{
+            transform: scale(1.2);
+            left:100px ;
+        }
+    }
+    @media (max-width: 679px){
+        .center{
+            transform: scale(1.0);
+            left:70px ;
+            top: 400px;
+        }
+    }
+    @media (max-width: 612px){
+        .center{
+            left:30px ;
+        }
+    }
+    @media (max-width: 565px){
+        .center{
+            height: 350px;
+            width: 400px;
+            left: 70px;
+            top: 200px;
+        }
+    }
+    @media (max-width: 479px){
+        .center{
+            left: 30px;
+        }
+    }
+    @media (max-width: 449px){
+        .center{
+            left: 20px;
+            transform: scale(0.89);
+            padding-top: 30px;
+        }
+    }
+    @media (max-width: 425px){
+        .center{
+            left: 8px;
+        }
+    }
+    @media (max-width: 405px){
+        .center{
+            left: -1px;
+        }
+    }
+    @media (max-width: 393px){
+        .center{
+            transform: scale(0.79);
+        }
+    }
+    @media (max-width: 377px){
+        .center{
+            left: -22px;
+        }
+    }
+    @media (max-width: 349px){
+        .center{
+            left: -40px;
+            transform: scale(0.69);
+            top: 100px;
+        }
+    }
+    @media (max-width: 315px){
+        .center{
+            left: -50px;
+            transform: scale(0.59);
+        }
+    }
+
